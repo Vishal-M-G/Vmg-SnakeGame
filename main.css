@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: grid;
+  place-items: center;
+  background-color: black;
+  overflow: hidden;
+}
+
+.snakeBone {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.2vw;
+  height: 2vh;
+  background-color: red;
+}
+
+#food {
+  position: absolute;
+  width: 2vw;
+  height: 2vh;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+
+#score {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10vw;
+  height: fit-content;
+  color: white;
+  border: 1px solid white;
+  display: grid;
+  place-items: center;
+}
